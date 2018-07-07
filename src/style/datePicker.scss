@@ -1,0 +1,22 @@
+.picker {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    input {
+        font-size: 50px;
+        font-weight: bold;
+        
+
+        text-align: center;
+        border: none;
+        background-color: transparent;
+        border-bottom: 2px solid #e3b924;
+    
+        &:focus {
+            outline: none;
+        }
+    }
+}
